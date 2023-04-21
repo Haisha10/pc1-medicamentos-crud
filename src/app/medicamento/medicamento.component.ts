@@ -23,7 +23,7 @@ export class MedicamentoComponent {
   medicamentoData!: Medicamento;
 
   dataSource = new MatTableDataSource();
-  displayedColumns: string[] = ['id', 'name', 'manufacturingDate', 'description', 'quantity', 'price', 'actions']
+  displayedColumns: string[] = ['id', 'name', 'manufacturingDate', 'description', 'quantity', 'price', 'total', 'actions']
 
   @ViewChild(MatPaginator, { static: true })
   paginator!: MatPaginator;

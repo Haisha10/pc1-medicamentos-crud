@@ -1,0 +1,20 @@
+{
+  "medicamentos": [
+    {
+      "id": 1,
+      "name": "Paracetamol",
+      "manufacturingDate": "12-12-2022",
+      "description": "Cada 8 horas",
+      "quantity": 6,
+      "price": 8
+    },
+    {
+      "name": "Ibuprofeno",
+      "manufacturingDate": "20-03-2023",
+      "description": "Cada 12 horas",
+      "quantity": "8",
+      "price": "10",
+      "id": 2
+    }
+  ]
+}
